@@ -2,6 +2,9 @@
 import time
 import serial
 
+import rospy
+from lora_messages.msg import lora_distance
+
 def millis():
     return int(round(time.time() * 1000))
 
